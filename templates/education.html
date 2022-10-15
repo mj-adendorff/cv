@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MJ Adendorff's Education</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="main">
+        <div class="container">
+            <div class="heading">
+                <h1 class="name">Education</h1>
+                <h2 class="subname">2012 to 2021</h2>
+            </div>
+            <div class="education">
+                {% for item in kwargs %}
+                <div class="frame">
+                    <div class="heading">
+                        <h3>{{kwargs[item].name}}</h3>
+                        <h4>{{kwargs[item].sub}}</h4>
+                    </div>
+                    <img draggable="false" src="{{kwargs[item].image}}" width="300px" height="390px"/>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
