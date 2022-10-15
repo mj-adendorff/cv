@@ -10,7 +10,7 @@ education = {
             "image": "/static/img/bsc.jpg"
         },
         "HSC": {
-            "name": "B.Sc (Hons) Computer Science",
+            "name": "B.Sc(Hons) Computer Science",
             "sub": "Stellenbosch University 2021",
             "image":"/static/img/honours.jpg"
         },
@@ -54,6 +54,6 @@ experience = {
 
 portfolio = {
     "Digitally Shifted": {"url": "https://digitallyshifted.com", "desc": "Our company website build in React with some cool stuff", "image": "/static/img/ds.jpg"},
-    "Inquisitive Technology": {"url": "https://inquisitivetechnology.com", "desc": "A client's website with dynamic forms and a email script", "image": "/static/img/it.jpg"},
+    "Inquisitive Technology": {"url": "https://inquisitivetechnology.co.za", "desc": "A client's website with dynamic forms and a email script", "image": "/static/img/it.jpg"},
     "Usedcars Boland Isuzu": {"url": "https://usedcars.bolandisuzuceres.co.za", "desc": "Client website that displays current used cars on sale by the dealer.", "image": "/static/img/is.jpg"},
 }
