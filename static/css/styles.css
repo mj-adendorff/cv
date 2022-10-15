@@ -37,10 +37,35 @@ html {
 
 .name {
     color: white;
+    text-align: center;
+    width: 80%;
 }
 
 .subname {
     color: wheat;
+    width: 80%;
+    text-align: center;
+}
+
+.pf-image {
+    width: inherit;
+}
+
+@media screen and (max-width: 900px) {
+    .pf-image {
+        width: 90%;
+        height: calc(80%);
+    }
+    .skill-name {
+        font-size: 14px;
+    }
+    .skillbox {
+        width: 140px !important;
+    }
+
+    .skillbox .fa-star {
+        font-size: 15px;
+    }
 }
 
 .buttons {
@@ -97,9 +122,10 @@ a {
     background-color: wheat;
 }
 
-.skill-name {
+.§me {
     font-family: "montserrat";
     font-size: 18px;
+    text-align: center;
 }
 
 .icon {
